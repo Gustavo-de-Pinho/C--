@@ -10,10 +10,13 @@ int main(){
 
     std::string myString = "Teste";
     myString = "Nao é mais teste";
+    //Criamos uma string a partir de uma biblioteca, e isso dá mais
+    //liberdade para criar e modificar a string livrimente
 
     myString += " definitivamente";
-
+    //Até concatenar é possivel
     
+    std::cout << myString << std::endl;
 
     system("pause");
 
