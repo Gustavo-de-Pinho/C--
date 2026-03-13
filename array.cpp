@@ -4,6 +4,7 @@
 
 int main(){
     char myChar = 'a';
+    //vetor estático
     char myArray[11] = "0123456789";
     //Por que 11 espaços, se há 10 caracteres? O último caractere
     //é reservado para o \0 que identifica o final de um array
